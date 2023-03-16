@@ -1,0 +1,24 @@
+
+/*Haciencdo cambios de estilos*/
+
+#contenedor-principal{
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+body{margin: 0;
+padding: 0;
+}
+header, footer{
+    background-color: black;
+    color: aqua;
+}
+main{background-color: blue;}
+main > article {background: red;}
+main > aside{background: green;}
